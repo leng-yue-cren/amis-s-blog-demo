@@ -19,7 +19,7 @@ export const BLOG_SLUG_KEY = process.env.BLOG_SLUG_KEY || '' // 博客 slug 加�
  * GitHub 仓库配置
  */
 export const GITHUB_CONFIG = {
-	OWNER: process.env.NEXT_PUBLIC_GITHUB_OWNER || 'AmisKwok', // GitHub 仓库所有者
+	OWNER: process.env.NEXT_PUBLIC_GITHUB_OWNER || 'leng-yue-cren', // GitHub 仓库所有者
 	REPO: process.env.NEXT_PUBLIC_GITHUB_REPO || '2025-blog-public', // GitHub 仓库名称
 	BRANCH: process.env.NEXT_PUBLIC_GITHUB_BRANCH || 'main', // GitHub 分支名称
 	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '2837611', // GitHub App ID
