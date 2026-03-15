@@ -23,8 +23,8 @@ export const GITHUB_CONFIG = {
 	REPO: process.env.NEXT_PUBLIC_GITHUB_REPO || '2025-blog-public', // GitHub 仓库名称
 	BRANCH: process.env.NEXT_PUBLIC_GITHUB_BRANCH || 'main', // GitHub 分支名称
 	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '3096739', // GitHub App ID
-	ENCRYPT_KEY: process.env.NEXT_PUBLIC_GITHUB_ENCRYPT_KEY || 'wudishiduomejimo', // 加密密钥
-	BLOGGERS_PASSWORD: process.env.NEXT_PUBLIC_BLOGGERS_PASSWORD || 'zhegeshimima', // 博主密码
+	ENCRYPT_KEY: process.env.NEXT_PUBLIC_GITHUB_ENCRYPT_KEY || '208427957', // 加密密钥
+	BLOGGERS_PASSWORD: process.env.NEXT_PUBLIC_BLOGGERS_PASSWORD || '2536107295q', // 博主密码
 } as const
 
 /**
